@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+#video-container {
+    width: 500px;
+    height: 281.25px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+}
+
+.video-js {
+    position: relative;
+    width: 100% !important;
+    height: 100% !important;
+    /*z-index: 1;*/
+}
+
+#share {
+    position: absolute;
+    top: 351px;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "londonhack",
+  "version": "0.0.0",
+  "authors": [
+    "mduleone <matt@duleone.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "jqueryui": "~1.11.4",
+    "reset-css": "~2.0.20110126",
+    "bootstrap": "~3.3.4",
+    "videojs": "~4.12.8",
+    "fontawesome": "~4.3.0"
+  }
+}

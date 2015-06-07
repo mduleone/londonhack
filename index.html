@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OPAL - Now Playing </title>
+    <!-- CSS -->
+    <!-- Bower Components -->
+    <link rel="stylesheet" type="text/css" href="bower_components/reset-css/reset.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/videojs/dist/video-js/video-js.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/fontawesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="bower_components/videojs/dist/video-js/video.dev.js"></script>
+
+    <!-- My Shiz -->
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+    <div id="video-container">
+        <video autobuffer
+            id="videoPlayer"
+            controls="true"
+            src="media/chelsea.mp4"
+            class="video-js vjs-default-skin"
+            >
+            <!-- src="media/kiss2.mp4" -->
+            <!-- src="media/kiss.mp4" -->
+        </video>
+    </div>
+    <div id="buttons">
+        <button id="saveClip" class="btn btn-success">Clip</button>
+        <button id="saveScreen" class="btn btn-success">Screencap</button>
+    </div>
+    <div id="overlay">
+        <div id="overlaybg"></div>
+        <div id="vids">
+            <div id="selected">
+                <div id="select1" class="half pickedClips selection"></div>
+                <div id="select2" class="half pickedClips selection"></div>
+                <div id="select3" class="half pickedClips selection"></div>
+                <div id="sharing" class="selection"><a href="share.html" target="_blank" id="shareButton" class="btn btn-primary">GENERATE</a></div>
+            </div>
+            <div id="choices">
+                <div id="row1">
+                    <div id="choice1" class="clickable choice"><img src="media/gagaga.gif" /></div>
+                    <div id="choice2" class="clickable choice"><img src="media/ghastly.gif" /></div>
+                    <div id="choice3" class="clickable choice"><img src="media/giggle.gif" /></div>
+                    <div id="choice4" class="choice"><img src="media/chels.gif" /></div>
+                </div>
+                <div id="row2">
+                    <div id="choice5" class="choice"><img src="media/boiz1.gif" /></div>
+                    <div id="choice6" class="choice"><img src="media/boiz2.gif" /></div>
+                    <div id="choice7" class="choice"><img src="media/boiz3.gif" /></div>
+                    <div id="choice8" class="choice"><img src="media/boiz4.gif" /></div>
+                </div>
+                <div id="row3">
+                    <div id="choice9" class="choice"></div>
+                    <div id="choice10" class="choice"></div>
+                    <div id="choice11" class="choice"></div>
+                    <div id="choice12" class="choice"></div>
+                </div>
+            </div>
+        </div>
+        <div id="caps">
+            <img src="media/meme.png" id="meme" />
+        </div>
+        <div id="icons">
+            <div id="vidOn"><i class="fa fa-video-camera fa-3x" id="clipCamera"></i></div>
+            <div id="capOn"><i class="fa fa-camera fa-3x" id="capCamera"></i></div>
+        </div>
+    </div>
+    <div id="mainImg"><img class="img" src="media/main.png" /></div>
+    <div id="scoreboardImg"><img class="img" src="media/scoreboard.png" /></div>
+    
+    <!-- JavaScript -->
+    <!-- Bower Components -->
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!-- My Shiz -->
+    <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>

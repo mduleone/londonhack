@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Opal - Share</title>
+    <link rel="stylesheet" type="text/css" href="styles/share.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/videojs/dist/video-js/video-js.css">
+    <link rel="stylesheet" href="//releases.flowplayer.org/6.0.1/skin/minimalist.css">
+    <script src="//releases.flowplayer.org/6.0.1/flowplayer.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <script type="text/javascript" src="bower_components/videojs/dist/video-js/video.dev.js"></script>
+</head>
+<body>
+    <h1>OPAL - Preview Your Video and Share to Facebook</h1>
+    <div id="video-container">
+        <video autobuffer
+            id="videoPlayer"
+            controls="true"
+            src="media/ghastly.mp4"
+            class="video-js vjs-default-skin"
+            >
+        </video>
+    </div>
+    <a id="share" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//nbcumedialabs.com/videos/ghastly.mp4" class="btn btn-primary">Share To Facebook</a>
+    <!-- <a id="share" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.dropbox.com/s/v18cbzdp9aushv2/ghastly.mp4?dl=0" class="btn btn-primary">Share To the Book of Faces</a> -->
+    <!-- JavaScript -->
+    <!-- Bower Components -->
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!-- My Shiz -->
+    <script type="text/javascript" src="scripts/share.js"></script>
+</body>
+</html>

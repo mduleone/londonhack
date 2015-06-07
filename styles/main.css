@@ -1,0 +1,180 @@
+#video-container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.video-js {
+    position: relative;
+    width: 100% !important;
+    height: 100% !important;
+    /*z-index: 1;*/
+}
+
+#buttons {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    z-index: 3;
+    display: none;
+}
+
+#overlaybg {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .5;
+}
+
+#selected {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 0;
+    left: 0;
+}
+
+.selection {
+    position: relative;
+    float: left;
+    width: 20%;
+    margin: 0 2.5%;
+    height: 98%;
+    /*background-color: #abcdef;*/
+}
+
+.pickedClips {
+    /*background-color: #000;*/
+    background-color: #c0c0c0;
+}
+
+#choices {
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    top: 25%;
+    left: 0;
+}
+
+#row1 {
+    position: relative;
+    width: 100%;
+    height: 33%;
+    top: 0%;
+    left: 0;
+}
+
+#row2 {
+    position: relative;
+    width: 100%;
+    height: 33%;
+    left: 0;
+}
+
+#row3 {
+    position: relative;
+    width: 100%;
+    height: 33%;
+    left: 0;
+}
+
+.choice {
+    float: left;
+    width: 20%;
+    margin: 0 2.5%;
+    height: 98%;
+    cursor: pointer;
+    /*background-color: #fedcba;*/
+}
+
+#sharing {
+    position: relative;
+}
+
+#shareButton {
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%)translateX(-50%);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+#vids {
+
+}
+
+#caps {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 0;
+    display: none;
+}
+
+#icons {
+    background: #000;
+    color: #c0c0c0;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+#meme {
+    width: 100%;
+    height: 100%;
+}
+
+#mainImg {
+    height: 100%;
+    /*width: 100%;*/
+    width: 100%;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+#scoreboardImg {
+    height: 100%;
+    background-color: #fff;
+    /*width: 100%;*/
+    width: 100%;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.img {
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.half {
+    opacity: .5;
+}
